@@ -2,7 +2,7 @@
 
 ## Dataset
 The dataset used for this project is the **Prosper Loan Dataset**. The dataset contains data about the details of the various loans lent to the borrowers from Prosper. Each row in the dataset represents a loan, uniquely identified by the *Listing Key*.<br>
-Every row in the dataset describes various attributes about the Borrower such as Employment Status, Credit Score, etc. Every row also describes other parameters such as Monthly Payments, On Time Payments, Interest Rate, etc.
+Various attributes about the Borrower such as Employment Status, Credit Score, etc. Every row also describes other parameters such as Monthly Payments, On Time Payments, Interest Rate, etc.
 
 ## Summary of Findings
 The exploration of the dataset led to the discovery of the various attributes about the Borrower's in the Prosper Loan dataset:
@@ -14,8 +14,7 @@ The exploration of the dataset led to the discovery of the various attributes ab
 * Majority of the Borrowers have a Credit Score between **650 - 750**.
 * Most of the Borrowers have Prosper Scores between **4 - 8**, with the Most Commonly occurring Prosper Score being **4**.
 * Most of the loans are given for a period of **36 Months/3 Years**.<br>
-The exploration also enabled in the discovery of many correlations between the attributes of Loans, such as the Interest Rate, Monthly Payments, Loan Origination Year and On Time Payments and the Borrower's attributes such as Employment Status. The following are some of the findings:
-* The number of Loans have doubled in number from the previous years from **2010 - 2013**, with the most loans being issued in the year **2013**.
+
 
 The exploration of the dataset, led to the identification of some interesting dependencies between the Borrower's Attributues and Loan Attributes. 
 * Borrowers with **Higher Monthly Income** are assigned a **Higher Prosper Score**.
